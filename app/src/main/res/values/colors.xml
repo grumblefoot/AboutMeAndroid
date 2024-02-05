@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="textColorPrimary">#000000</color> <!-- Black for light theme -->
+    <!-- Other color resources for light theme -->
+
 </resources>
