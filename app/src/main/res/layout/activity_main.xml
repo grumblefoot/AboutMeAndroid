@@ -44,13 +44,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:gravity="center">
 
                 <ImageView
                     android:id="@+id/scrollable_image"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:layout_height="446dp"
+                    android:contentDescription="@string/my_photo"
+                    android:src="@drawable/me" />
 
                 <TextView
                     android:id="@+id/about_me"
