@@ -1,5 +1,7 @@
 package com.example.aboutme
 
+
+import android.app.Activity
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,10 +10,18 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.databinding.DataBindingComponent
+import androidx.databinding.DataBindingUtil
+
 
 class MainActivity : AppCompatActivity() {
+
+    //private lateinit var binding:
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        //binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.done_button).setOnClickListener {
@@ -40,3 +50,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
+
+
