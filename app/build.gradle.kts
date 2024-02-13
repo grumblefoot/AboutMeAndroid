@@ -11,10 +11,11 @@ android {
     namespace = "com.example.aboutme"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.aboutme"
         minSdk = 31
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -30,8 +31,9 @@ android {
             )
         }
     }
-    buildFeatures {
-        dataBinding = true
+
+    dataBinding {
+        enable = true
     }
 
     compileOptions {
@@ -41,7 +43,7 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
-    buildToolsVersion = "34.0.0 rc4"
+    buildToolsVersion = "34.0.0"
 }
 
 dependencies {

@@ -5,7 +5,7 @@
     <string name="my_bio">About Me: Welcome! I am Rowan Wolf Osmon, a Software Engineering graduate from the University of Washington (Dec 2023), based in Tacoma/Seattle, WA. My passion lies in crafting innovative software solutions and navigating the tech landscape. My GitHub hosts a variety of projects reflecting my skills in Java, JavaScript, C, Python, and more, alongside my expertise in database management, object-oriented programming, and 3D design. With five years of management experience in the automotive industry and a solid background in 3D printing and design, I bring a unique blend of technical and creative skills to the table. I\'m always open to collaboration and inquiries, so don\'t hesitate to reach out.</string>
     <string name="my_photo">my_photo</string>
     <string name="nickname"></string>
-
+    <string name="done">Done</string>
 
 
 </resources>
